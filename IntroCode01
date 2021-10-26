@@ -1,0 +1,36 @@
+# This program is an introduction code.
+print('Hello, new comer!')
+print('What is your name?')
+
+myName = input()
+
+print('It is nice to meet you, ' + myName + ' !')
+print('The length of your name is :')
+print(len(myName))
+
+if len(myName) <= 10 :
+    print('That is not very long. ')
+
+else :
+    print('Wow that is a long name!')
+
+print('How old are you?')
+
+myAge = input()
+
+if int(myAge) <= 18 :
+    print('You are very young!')
+
+else :
+    print('You poor thing, you are old!')
+
+print('What is your favorite food?')
+
+myFood = input()
+grossFoods = 'mushroom' , 'onion' , 'radish'
+
+if myFood in str(grossFoods) :
+    print("That is gross!")
+
+else :
+    print('Yummy! I like to eat data!')
