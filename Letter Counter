@@ -1,0 +1,20 @@
+print("Hello. Let's begin!")
+
+print("What is your name?")
+
+user_name = input().title()  # The title() method converts first letter of name to uppercase
+
+print("Hello, " + user_name + "!")
+
+print("Now let's see if I can count the number of times there is specific letter in a message!")
+
+user_message = input("\nPlease enter a message: ")
+
+chosen_letter = input("\nWhich letter would you like to count: ")
+
+user_message = user_message.lower()  # This will make sure to convert uppercase to lowercase
+chosen_letter = chosen_letter.lower()  # This will count all lowercase letters
+
+letter_count = user_message.count(chosen_letter)  # This will count the letter chosen
+
+print("The letter " + chosen_letter + " was used " + str(letter_count) + "!")
