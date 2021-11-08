@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- This is our HTML document, which is the 'skeleton' of our webpage. -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- this link below refers to the CSS document we are using to style this webpage-->
+<link rel="stylesheet" href="nmojicawebsite.css">
+
+
+<head >
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+     <!--Title of the page-->
+     <title >NyTasha Mojica</title>
+   
+              
+
+
+</head>
+
+<body>
+    <style>
+        .thin-black-border {
+            border-color: black;
+            border-width: 3px;
+            border-style: solid;
+        }
+        .thin-green-border {
+            border-color: green;
+            border-width: 2px;
+            border-style: solid;
+        }
+        
+    </style>
+    <div id="page-wrap">
+<!--Insert a picture of yourself where it says 'images/me.jpg. the "me" portion is the filename and the "images/" is the folder name it lives in.
+    the images/ is important as in our S3 bucket we are keeping the images in a separate folder (called images)'-->
+    
+    
+        <div id="contact-info" class="vcard">
+        
+        
+        <!-- This is the main title, call it 'my cv'-->
+           <style>
+                body {
+                    background-color: silver;
+                }
+               
+               h1 {
+                   font-size: 45px;
+                   padding: 25px 15px 25px 25px;
+                   color:rgb(5, 150, 150);
+                   text-align: center;
+               }
+               p {
+                   font-size: 17px;
+                   padding: 10px 5px 5px 10px;
+                   color:rgb(11, 129, 129)
+               }
+               
+               
+           </style>  
+           <img class="mypicture thin-green-border"  src="images/me.jpg" alt="me" width = "150" height = "225" id="pic" />
+           <h1 >NyTasha Mojica-CV</h1>
+        
+            <p> 
+                <!--Obviously edit this information-->
+                Mobile Number: <span class="green-text tel">17578315677</span><br />
+                Email: <a href="mailto:nlmojica21@gmail.com" class="green-text">nmojica21@gmail.com</a>
+                
+            </p>
+            
+        </div>
+                
+        <div id="objective">
+
+            <!-- this is an intro message - so add an overview of yourself, and some links to any socials you have etc-->
+            <!-- to edit the link, simply replace the link with the link you desire. target = blank means it opens in a new tab when you click it, so to replace the test the user clicks, edit the text after "blank"-->
+            <p >
+                I currently graduated from ECPI with a B.S. in Computer and Information Science with concentration in Network and Security. I spend everyday studying for AWS certifications and learning Python with hands-on labs.
+               You can find some of my projects on LinkedIn for my externship and college <a href="https://www.linkedin.com/in/nmojica/" target="_blank">here!</a> I post to my GitHub with the codes as I learn Python <a href="https://github.com/nlmojica21/Python-Labs" target="_blank">here!</a>
+            </p>
+        </div>
+        
+        
+        <dl>
+            <dd>
+                <style>
+                    
+                    h4 {
+                        font-size: 16px;
+                        text-align: center;
+                        margin: 25px;
+                        font-family: geneva;
+                        color: rgb(11, 129, 129);
+                        font-style: oblique;
+                    }
+                    
+                </style>
+
+                <dd class="clear"></dd>
+            
+                <h2 >Certifications</h2>
+               <!--simply add any certs you have here-->
+                <h4> 
+                    <strong >AWS Certification of Completion: </strong>October 2021</p>
+                    <strong >TryHackMe Certification of Completion:</strong><em> Pre-Security</em> July 2021</p>
+                </h4> 
+            </dd>
+            
+                <style>
+                    
+                    h2 {
+                        font-size: 20px;
+                        font-family: Geneva;
+                        margin: 15px 175px 5px 15px;
+                        text-align: left;
+                        color: rgb(11, 145, 105);
+                        font-style: normal;
+                    }
+                        
+                    h3 {
+                        font-size: 18px;
+                        font-family: Times;
+                        margin: 15px 175px 5px 15px;
+                        text-align: center;
+                        color: rgb(9, 151, 127);
+                        font-style: italic;
+                    }
+                    
+                    dd {
+                        font-size: 14px;
+                        font-family: sans-serif;
+                        color: black;
+                    }
+                    ul {
+                        font-size: 16px;
+                        font-family: Times;
+                        text-align: left; 
+                    }
+                    li {
+                        text-align: left;
+                    }
+                </style>
+
+            <dd class="clear"></dd>
+            <img class="mypicture thin-black-border" src="images/Degree.png" alt="degree" width="250" height="300" id="pic" />
+
+                <h2>Education</h2>
+                <!--add your education here-->
+                <h4>
+                   <strong >BS CIS: </strong><em>ECPI University</em></p>
+                   <strong >3.91 GPA Summa Cum Laude</strong>
+                </h4>
+           
+                </dd>
+
+
+            <dd class="clear"></dd>
+
+                <h2 >Experience</h2>
+            <dd>
+                <!--This is our experience section.  the 'li' tag enclosed in the 'ul' tag is a bullet pointed list in which you can detail your achievements.-->
+                <h3>Extern ECPI - Aug 2021 - Oct 2021</h3>
+                <ul>
+                    <li>I compiled information about CRM call center software called Five9 for a 5 week solo project.</li>
+                    <li>I updated the call center network infrastructure on Packet Tracer to achieve scalability and reliability.
+                        </li>
+                    <li>I created call center tiers on Visio to show technician and ticket paths by levels.</li>
+                    <li>I produced cost tables on Excel for devices and software for the call center.</li>
+                    <li>I completed a security analysis report with recommendations needed to secure the data in transit, in use, and stored on Microsoft word.</li>
+                     <li>I created a document of all network details, cost tables, designs, and analysis into one report.</li>   
+                </ul>
+                <!-- each different job role is separated by a new 'h2' tag-->
+                <h3>ECPI Student ECPI – <em>Aug 2019 - Oct 2021</em></h3>
+                <ul>
+                    <li>I designed slides for project presentations using PowerPoint for 45% of degree period, including presentations on AI Hacking, Company RFP, and Security Analysis.</li>
+                    <li>I gained the skills in using Microsoft Office and Kali vulnerability tools for 75% of CIS classes. Tools used included NMAP, WireShark, and Armitage.</li>
+                    <li>I successfully contributed to Security Analysis, DR , RFP, and vulnerability reports by compiling research and designing charts.
+                    </li>
+                    <li>I designed charts using Visio, Excel, and Word.</li>
+                    <li>I created network infrastructures on Packet Tracer with configurations to ensure network connection and security.</li>
+                    <li>I troubleshooted IT problems and developed successful solutions, icluding vulnerability scans and mitigations.</li>
+                </ul>  
+
+             </dd>
+            <dd class="clear"></dd>
+            
+            <h2 >Skills</h2>
+            <dd>
+
+                <h3>Technical Skills</h3>
+                <ul>
+                    <li>Microsoft Office (Word, PowerPoint, Excel)</li>
+                    <li>Visio</li>
+                    <li>Microsoft Project</li>
+                    <li>Linux/Kali (Basics Pentesting)</li>
+                    <li>AWS (EC2, S3, IAM, etc)</li>
+                    <li>Python (Novice)</li>
+                    <li>CSS (Novice)</li>
+                    <li>Windows</li>
+                </ul>
+
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Ability to Adapt</li>
+                    <li>Time Management</li>
+                    <li>Self-Starter</li>
+                    <li>Reports/Assessments</li>
+                    <li>Research</li>
+                    <li>Multi-Task</li> 
+                 </ul>
+
+            </dd>
+            <dd class="clear"></dd>
+            
+            <h2>Hands-On</h2>
+            <dd>
+                 <ul>
+                    <li>Created this website using CSS and AWS S3</li>
+                    <li>TryHackMe Labs</li>
+                    <li>AWS Labs on Whizlabs</li>
+                    <li>Python labs on PyCharm, post on GitHub <a href="https://github.com/nlmojica21" target="_blank">(here)</a></li>
+            </ul>
+            
+            </dd>
+            <dd class="clear"></dd>
+            
+            <!--Feel free to add some references in here, I prefer to add them as available on request-->
+            <h2>References</h2>
+            <dd>
+                <ul>
+                     <li>Available on request</li>
+                </ul>
+            </dd>
+            
+            <dd class="clear"></dd>
+           
+        </dl>
+
+        
+
+</body>
+
+</html>
