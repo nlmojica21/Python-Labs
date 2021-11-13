@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="nmojicawebsite.css">
 
 
+
 <head >
      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
      <!--Title of the page-->
@@ -20,12 +21,12 @@
 <body>
     <style>
         .thin-black-border {
-            border-color: black;
+            border-color: #1189ad;
             border-width: 3px;
             border-style: solid;
         }
         .thin-green-border {
-            border-color: green;
+            border-color: #1189ad;
             border-width: 2px;
             border-style: solid;
         }
@@ -37,30 +38,44 @@
     
     
         <div id="contact-info" class="vcard">
-        
+        <img class="mypicture thin-green-border"  src="images/me.jpg" alt="me" height="200px" width="150px"  id="pic" />
         
         <!-- This is the main title, call it 'my cv'-->
            <style>
                 body {
-                    background-color: silver;
+                    background: linear-gradient(45deg, rgb(118, 223, 57), #1189ad);  
                 }
-               
+                
                h1 {
                    font-size: 45px;
                    padding: 25px 15px 25px 25px;
-                   color:rgb(5, 150, 150);
+                   color:#0f475e;
                    text-align: center;
+               }
+               h1:hover {
+                   color: #1d6683;
+
                }
                p {
                    font-size: 17px;
+                   font-weight: 200;
                    padding: 10px 5px 5px 10px;
-                   color:rgb(11, 129, 129)
+                   color:#71c3df;
+                   line-height: 25px;
+               }
+               a:hover {
+                   color: #c9e2eb;
+               }
+               img {
+                   position: relative;
+                   left: 75px;
+                   bottom: 45px;
                }
                
                
            </style>  
-           <img class="mypicture thin-green-border"  src="images/me.jpg" alt="me" width = "150" height = "225" id="pic" />
-           <h1 >NyTasha Mojica-CV</h1>
+           
+           <h1>NyTasha Mojica-CV</h1>
         
             <p> 
                 <!--Obviously edit this information-->
@@ -91,8 +106,22 @@
                         text-align: center;
                         margin: 25px;
                         font-family: geneva;
-                        color: rgb(11, 129, 129);
+                        color: #0e3a47;
                         font-style: oblique;
+                        line-height: 14px;
+                        position: relative;
+                        right: 85px;
+                    }
+                    h5 {
+                        font-size: 16px;
+                        text-align: center;
+                        margin: 25px;
+                        font-family: geneva;
+                        color: #0a4253;
+                        font-style: oblique;
+                        line-height: 30px;
+                        position: relative;
+                        right: 6px;  
                     }
                     
                 </style>
@@ -114,8 +143,12 @@
                         font-family: Geneva;
                         margin: 15px 175px 5px 15px;
                         text-align: left;
-                        color: rgb(11, 145, 105);
+                        color: #126680;
                         font-style: normal;
+                        line-height: 25px;
+                        position: relative;
+                        left: 250px;
+                        
                     }
                         
                     h3 {
@@ -123,22 +156,29 @@
                         font-family: Times;
                         margin: 15px 175px 5px 15px;
                         text-align: center;
-                        color: rgb(9, 151, 127);
+                        color: #0a4253;
                         font-style: italic;
+                        position: relative;
+                        right: 100px;
                     }
                     
                     dd {
                         font-size: 14px;
                         font-family: sans-serif;
                         color: black;
+                        line-height: 18px;
                     }
                     ul {
                         font-size: 16px;
                         font-family: Times;
                         text-align: left; 
+                        position: relative;
+                        top: 15px;
                     }
                     li {
                         text-align: left;
+                        position: relative;
+                        right: 150px;
                     }
                 </style>
 
@@ -147,10 +187,11 @@
 
                 <h2>Education</h2>
                 <!--add your education here-->
-                <h4>
-                   <strong >BS CIS: </strong><em>ECPI University</em></p>
-                   <strong >3.91 GPA Summa Cum Laude</strong>
-                </h4>
+                <h5>
+                     <strong >Bachelor's in Science in Computer and Information Science:</strong>
+                     <strong><br>ECPI University in Virginia, US</br> </strong>
+                     <strong> 3.91 GPA Summa Cum Laude</strong>
+                </h5>
            
                 </dd>
 
