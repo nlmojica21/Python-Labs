@@ -12,7 +12,7 @@ client =  pip._vendor.requests.session()
 client.verify = False
 
 #VirusTotal API key
-apikey = ('c36a83e55d25b3a2edf1ddd4944986f6b6585228e9709df752ca33d6f198593a')
+apikey = ('API KEY')
 
 
 def get_hash_report(apikey, filehash):
